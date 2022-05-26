@@ -4,7 +4,8 @@
   "description": "teste de api utilizando cypress",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress open"
+    "cy:open": "cypress open",
+    "test": "cypress run"     
   },
   "author": "Renato",
   "license": "ISC",
